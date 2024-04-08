@@ -1,0 +1,45 @@
+2024-04-03 13:36:59,363 [main] INFO  o.example.newsfeedapiv2.Application - Starting Application using Java 20.0.2 with PID 28524 (D:\Skillbox\java_basics\SpringBootApplicationPart2\NewsFeedAPIv2\target\classes started by onlai in D:\Skillbox\java_basics\SpringBootApplicationPart2\NewsFeedAPIv2)
+2024-04-03 13:36:59,365 [main] INFO  o.example.newsfeedapiv2.Application - No active profile set, falling back to 1 default profile: "default"
+2024-04-03 13:36:59,752 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-03 13:36:59,796 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
+2024-04-03 13:37:00,113 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-04-03 13:37:00,119 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-03 13:37:00,122 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-03 13:37:00,122 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-04-03 13:37:00,154 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-03 13:37:00,154 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 754 ms
+2024-04-03 13:37:00,402 [main] INFO  liquibase.database - Set default schema name to public
+2024-04-03 13:37:00,666 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2024-04-03 13:37:00,699 [main] INFO  liquibase.ui - Database is up to date, no changesets to execute
+2024-04-03 13:37:00,702 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2024-04-03 13:37:00,707 [main] INFO  liquibase.util - UPDATE SUMMARY
+2024-04-03 13:37:00,707 [main] INFO  liquibase.util - Run:                          0
+2024-04-03 13:37:00,708 [main] INFO  liquibase.util - Previously run:               2
+2024-04-03 13:37:00,708 [main] INFO  liquibase.util - Filtered out:                 0
+2024-04-03 13:37:00,708 [main] INFO  liquibase.util - -------------------------------
+2024-04-03 13:37:00,708 [main] INFO  liquibase.util - Total change sets:            2
+2024-04-03 13:37:00,708 [main] INFO  liquibase.util - Update summary generated
+2024-04-03 13:37:00,727 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2024-04-03 13:37:00,728 [main] INFO  liquibase.command - Command execution complete
+2024-04-03 13:37:00,777 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-03 13:37:00,809 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-04-03 13:37:00,831 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-03 13:37:00,985 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-03 13:37:01,003 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-03 13:37:01,028 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5e360c3b
+2024-04-03 13:37:01,029 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-03 13:37:01,674 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-03 13:37:01,700 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-03 13:37:02,166 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-04-03 13:37:02,178 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-04-03 13:37:02,184 [main] INFO  o.example.newsfeedapiv2.Application - Started Application in 3.114 seconds (process running for 3.485)
+2024-04-03 13:37:16,359 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-03 13:37:16,359 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-04-03 13:37:16,360 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-04-05 06:37:57,586 [main] INFO  o.e.n.s.NewsServiceImplIntegrationTest - Starting NewsServiceImplIntegrationTest using Java 20.0.2 with PID 28452 (started by onlai in D:\Skillbox\java_basics\SpringBootApplicationPart2\NewsFeedAPIv2)
+2024-04-05 06:37:57,587 [main] INFO  o.e.n.s.NewsServiceImplIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2024-04-05 06:37:58,121 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-05 06:37:58,178 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces.
+2024-04-05 06:37:59,709 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.

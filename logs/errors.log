@@ -1,0 +1,2 @@
+2024-04-03 13:36:59,364 [main] DEBUG o.example.newsfeedapiv2.Application - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-04-05 06:37:57,586 [main] DEBUG o.e.n.s.NewsServiceImplIntegrationTest - Running with Spring Boot v3.2.1, Spring v6.1.2
